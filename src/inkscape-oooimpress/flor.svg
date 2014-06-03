@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="372.04724"
+   height="262.20471"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="flor.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient13743">
+      <stop
+         style="stop-color:#fef037;stop-opacity:1"
+         offset="0"
+         id="stop13745" />
+      <stop
+         style="stop-color:#fff078;stop-opacity:0;"
+         offset="1"
+         id="stop13747" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13727">
+      <stop
+         style="stop-color:#fef037;stop-opacity:1"
+         offset="0"
+         id="stop13729" />
+      <stop
+         style="stop-color:#fcf08e;stop-opacity:0;"
+         offset="1"
+         id="stop13731" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13646">
+      <stop
+         style="stop-color:#9d2c23;stop-opacity:1;"
+         offset="0"
+         id="stop13648" />
+      <stop
+         style="stop-color:#9d2c23;stop-opacity:0;"
+         offset="1"
+         id="stop13650" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path3695"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(0.6,0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path3677"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path3698"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path3814"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path3680"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3671"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3674"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13727"
+       id="radialGradient13733"
+       cx="552.56885"
+       cy="548.87305"
+       fx="552.56885"
+       fy="548.87305"
+       r="15.67834"
+       gradientTransform="matrix(1,2.1166177e-6,-2.1166177e-6,1,1.1289221e-3,-1.1978504e-3)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient13743"
+       id="radialGradient13749"
+       cx="552.56885"
+       cy="548.87305"
+       fx="552.56885"
+       fy="548.87305"
+       r="15.67834"
+       gradientTransform="matrix(0.9999979,-5.8282579e-7,5.8282775e-7,1.0000013,8.4998656e-4,-3.9643e-4)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8451052"
+     inkscape:cx="186.02362"
+     inkscape:cy="131.10236"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1679"
+     inkscape:window-height="974"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2448">
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         sodipodi:nodetypes="ccc"
+         id="path13563"
+         d="M 182.4252,56.612364 C 185.54959,61.467754 187.7211,66.328634 182.25734,104.53731 L 181.66982,106.29988"
+         style="fill:none;fill-rule:evenodd;stroke:#00ef00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         sodipodi:nodetypes="cccccsccccccccc"
+         id="path13561"
+         d="M 181.33409,107.22313 C 179.44413,103.14453 176.09718,100.70659 172.94093,98.158514 C 169.59858,95.980944 166.92717,94.600094 161.69409,93.794074 C 159.28257,93.413354 154.98499,94.118944 152.62948,95.472704 C 152.73924,97.342334 153.75305,99.112414 158.33683,103.19441 C 161.27849,105.18198 162.51946,105.96107 168.74435,107.72672 C 171.38183,108.47483 175.346,108.39817 177.6411,108.39817 C 178.51129,108.27082 179.41874,108.12485 181.16623,107.55885 C 184.3729,104.33727 187.24463,100.75607 193.08452,96.312024 C 197.62012,93.313524 200.13886,93.256384 202.98845,92.786894 C 207.39697,92.469344 208.86897,94.668804 210.20657,96.983474 C 209.03859,97.726344 206.61268,98.398824 203.49204,101.8515 C 200.14324,104.93746 196.62569,107.01535 192.07733,108.2303 C 188.50868,108.93077 184.73609,108.92789 183.09665,107.97851 L 181.83768,107.22313"
+         style="fill:#00c716;fill-opacity:1;fill-rule:evenodd;stroke:#00e400;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 180.66263,27.907754 C 189.52008,27.603994 186.21777,44.426624 180.49477,51.492544 C 175.64917,44.618744 171.95619,27.753634 180.66263,27.907754 z"
+         id="path13543"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 198.57063,34.545404 C 205.60768,39.933034 192.37763,50.835874 183.47025,52.663044 C 184.08922,44.275804 191.94091,28.899814 198.57063,34.545404 z"
+         id="path13545"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 208.25264,51.360954 C 210.1714,60.013404 193.02855,59.843864 185.03503,55.509854 C 190.90655,49.488704 206.81165,42.773204 208.25264,51.360954 z"
+         id="path13547"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 204.80488,70.524694 C 200.68505,78.371584 187.70167,67.176144 184.3943,58.706124 C 192.7654,57.897624 209.24784,63.035644 204.80488,70.524694 z"
+         id="path13549"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 162.58902,34.164234 C 169.23444,28.300354 177.3765,43.387204 177.44875,52.479764 C 169.33902,50.252414 155.76919,39.578624 162.58902,34.164234 z"
+         id="path13551"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 152.63263,50.380014 C 154.06846,41.634434 169.91931,48.165634 175.72837,55.160984 C 168.03908,58.567414 150.77734,58.887874 152.63263,50.380014 z"
+         id="path13553"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 189.84938,82.918294 C 181.64361,86.266744 178.92384,69.340174 181.84983,60.730954 C 188.77376,65.504644 198.07181,80.051684 189.84938,82.918294 z"
+         id="path13555"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 170.66297,82.852144 C 162.20553,80.202924 170.89704,65.425784 178.63854,60.656174 C 180.93191,68.747494 178.82617,85.883304 170.66297,82.852144 z"
+         id="path13557"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         inkscape:transform-center-x="14.929595"
+         inkscape:transform-center-y="9.0291335"
+         sodipodi:nodetypes="ccc"
+         id="path13501"
+         d="M 155.49681,69.827264 C 150.89502,62.252944 167.18006,56.895354 176.14321,58.425654 C 172.52234,66.016324 159.62541,77.494104 155.49681,69.827264 z"
+         style="fill:#ff0087;fill-opacity:1;fill-rule:evenodd;stroke:#f40087;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor.png"
+         transform="translate(-284.90603,-354.51227)"
+         sodipodi:open="true"
+         sodipodi:end="6.2841425"
+         sodipodi:start="0.0019133268"
+         d="M 470.74914,410.67422 A 5.8519359,5.8519359 0 1 1 470.74915,410.66863"
+         sodipodi:ry="5.8519359"
+         sodipodi:rx="5.8519359"
+         sodipodi:cy="410.66302"
+         sodipodi:cx="464.89722"
+         id="path13559"
+         style="opacity:1;fill:#ffd154;fill-opacity:1;stroke:#ffe26a;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2434">
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         sodipodi:nodetypes="ccc"
+         id="path13578"
+         d="M 76.037677,56.118434 C 79.162067,60.973824 81.333577,65.834704 75.869817,104.04338 L 75.282297,105.80595"
+         style="fill:none;fill-rule:evenodd;stroke:#00ef00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         sodipodi:nodetypes="cccccsccccccccc"
+         id="path13580"
+         d="M 74.946567,106.7292 C 73.056607,102.6506 69.709657,100.21266 66.553407,97.664584 C 63.211057,95.487014 60.539647,94.106164 55.306567,93.300144 C 52.895047,92.919424 48.597467,93.625014 46.241957,94.978774 C 46.351717,96.848404 47.365527,98.618484 51.949307,102.70048 C 54.890967,104.68805 56.131937,105.46714 62.356827,107.23279 C 64.994307,107.9809 68.958477,107.90424 71.253577,107.90424 C 72.123767,107.77689 73.031217,107.63092 74.778707,107.06492 C 77.985377,103.84334 80.857107,100.26214 86.696996,95.818094 C 91.232596,92.819594 93.751336,92.762454 96.600925,92.292964 C 101.00944,91.975414 102.48144,94.174874 103.81904,96.489544 C 102.65106,97.232414 100.22515,97.904894 97.104515,101.35757 C 93.755716,104.44353 90.238166,106.52142 85.689806,107.73637 C 82.121157,108.43684 78.348567,108.43396 76.709127,107.48458 L 75.450157,106.7292"
+         style="fill:#00c716;fill-opacity:1;fill-rule:evenodd;stroke:#00e400;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 74.275107,27.413824 C 83.132557,27.110064 79.830247,43.932694 74.107247,50.998614 C 69.261647,44.124814 65.568667,27.259704 74.275107,27.413824 z"
+         id="path13582"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 92.183106,34.051474 C 99.220155,39.439104 85.990106,50.341944 77.082727,52.169114 C 77.701697,43.781874 85.553386,28.405884 92.183106,34.051474 z"
+         id="path13584"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 101.86511,50.867024 C 103.78387,59.519474 86.641026,59.349934 78.647507,55.015924 C 84.519026,48.994774 100.42412,42.279274 101.86511,50.867024 z"
+         id="path13586"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 98.417355,70.030764 C 94.297526,77.877654 81.314147,66.682214 78.006777,58.212194 C 86.377876,57.403694 102.86031,62.541714 98.417355,70.030764 z"
+         id="path13588"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 56.201497,33.670304 C 62.846917,27.806424 70.988977,42.893274 71.061227,51.985834 C 62.951497,49.758484 49.381667,39.084694 56.201497,33.670304 z"
+         id="path13590"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 46.245107,49.886084 C 47.680937,41.140504 63.531787,47.671704 69.340847,54.667054 C 61.651557,58.073484 44.389817,58.393944 46.245107,49.886084 z"
+         id="path13592"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 83.461857,82.424364 C 75.256087,85.772814 72.536317,68.846244 75.462307,60.237024 C 82.386237,65.010714 91.684286,79.557754 83.461857,82.424364 z"
+         id="path13594"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 64.275447,82.358214 C 55.818007,79.708994 64.509517,64.931854 72.251017,60.162244 C 74.544387,68.253564 72.438647,85.389374 64.275447,82.358214 z"
+         id="path13596"
+         sodipodi:nodetypes="ccc"
+         inkscape:transform-center-y="-16.534528"
+         inkscape:transform-center-x="-0.41965808" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         inkscape:transform-center-x="14.929595"
+         inkscape:transform-center-y="9.0291335"
+         sodipodi:nodetypes="ccc"
+         id="path13598"
+         d="M 49.109287,69.333334 C 44.507497,61.759014 60.792537,56.401424 69.755687,57.931724 C 66.134817,65.522394 53.237887,77.000174 49.109287,69.333334 z"
+         style="fill:#ffff87;fill-opacity:1;fill-rule:evenodd;stroke:#f49e23;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="72"
+         inkscape:export-xdpi="72"
+         inkscape:export-filename="/home/rata/Bureau/flor2.png"
+         transform="translate(-391.29356,-355.00622)"
+         sodipodi:open="true"
+         sodipodi:end="6.2841425"
+         sodipodi:start="0.0019133268"
+         d="M 470.74914,410.67422 A 5.8519359,5.8519359 0 1 1 470.74915,410.66863"
+         sodipodi:ry="5.8519359"
+         sodipodi:rx="5.8519359"
+         sodipodi:cy="410.66302"
+         sodipodi:cx="464.89722"
+         id="path13600"
+         style="opacity:1;fill:#ff8f54;fill-opacity:1;stroke:#ff726a;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#f7b111;fill-opacity:1;stroke:#ec813a;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path13695"
+       sodipodi:cx="612.2923"
+       sodipodi:cy="564.58807"
+       sodipodi:rx="3.7449069"
+       sodipodi:ry="0"
+       d="M 616.0372,564.58807 A 3.7449069,0 0 0 0 616.0372,564.58807"
+       sodipodi:start="0.0019133268"
+       sodipodi:end="0.00095719282"
+       sodipodi:open="true" />
+    <g
+       id="g13785"
+       inkscape:export-filename="/home/rata/Bureau/flor3.png"
+       inkscape:export-xdpi="72"
+       inkscape:export-ydpi="72"
+       transform="matrix(2.5610232,0,0,2.5167508,-1224.972,-1498.753)">
+      <path
+         sodipodi:nodetypes="ccc"
+         id="path13783"
+         d="M 590.14451,637.91598 C 590.87463,637.11942 592.63706,622.57716 589.64011,621.94341 L 589.64011,622.11154"
+         style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#009c80;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         transform="translate(26.56491,28.918762)"
+         d="M 556.8543,594.36971 L 558.38666,591.14628 L 555.21119,592.95924 L 557.44562,590.17609 L 553.93765,591.20787 L 556.75368,589.01502 L 553.10233,589.21 L 556.34816,587.72569 L 552.75026,587.07335 L 556.25091,586.37759 L 552.90043,584.9131 L 556.46717,585.0434 L 553.54474,582.84571 L 556.98529,583.79504 L 554.64846,580.98264 L 557.77734,582.69983 L 556.15208,579.42432 L 558.80061,581.81679 L 557.97454,578.25476 L 559.99993,581.19354 L 560.0176,577.53702 L 561.31067,580.86367 L 562.1711,577.30979 L 562.66214,580.84497 L 564.31897,577.58531 L 563.9815,581.13844 L 566.34539,578.34874 L 565.19762,581.72827 L 568.14114,579.55892 L 566.24493,582.58265 L 569.60939,581.1506 L 567.06697,583.65553 L 570.67101,583.03798 L 567.61944,584.88907 L 571.26874,585.11931 L 567.87254,586.21677 L 571.37037,587.28239 L 567.81263,587.56705 L 570.97043,589.4106 L 567.44293,588.86711 L 570.09047,591.38921 L 566.78339,590.04687 L 568.77792,593.11155 L 565.86956,591.04273 L 567.10356,594.48477 L 564.75069,591.801 L 565.15765,595.43485 L 563.48712,592.28081 L 563.04508,595.91055 L 562.14695,592.45628 L 560.87975,595.88624 L 560.80244,592.31796 L 558.7784,595.36323 L 559.52608,591.8733 L 556.8543,594.36971 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.255091"
+         sodipodi:arg1="2.1637989"
+         sodipodi:r2="5.8212185"
+         sodipodi:r1="9.3264208"
+         sodipodi:cy="586.63562"
+         sodipodi:cx="562.06641"
+         sodipodi:sides="27"
+         id="path13779"
+         style="opacity:1;fill:#1b89ad;fill-opacity:1;stroke:#1f1081;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="star" />
+      <path
+         sodipodi:nodetypes="cccccsccccccccscscsccccccc"
+         id="path13781"
+         d="M 592.16209,638.25224 C 596.70167,631.69508 596.70167,631.69508 596.70167,631.69508 L 595.861,636.40279 L 599.39178,632.87201 L 596.02914,637.91598 C 596.02914,637.91598 606.11708,631.35882 605.61268,632.03135 C 605.10828,632.70388 596.53353,639.42917 596.53353,639.42917 L 601.07311,639.42917 L 593.50715,639.93357 L 598.21486,644.64127 L 590.6489,639.76543 L 590.31264,639.93356 L 581.56976,641.95115 L 585.60493,639.42917 C 585.60493,639.42917 574.84446,639.0929 576.18952,639.0929 C 577.53458,639.0929 584.42801,638.42037 584.42801,638.42037 C 584.42801,638.42037 577.70271,635.05773 578.87964,635.22586 C 580.05656,635.39399 584.76427,637.07532 584.76427,637.07532 C 584.76427,637.07532 582.57855,633.20827 583.41921,633.8808 C 584.25987,634.55333 587.62252,636.73905 587.62252,636.73905 L 586.94999,634.8896 L 590.31264,638.42037 L 590.81703,634.55333 L 591.32143,638.08411 L 592.33023,635.39399 L 592.16209,638.25224 z"
+         style="fill:#048473;fill-opacity:1;fill-rule:evenodd;stroke:#1fb57e;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

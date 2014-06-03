@@ -1,0 +1,369 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[centerlast]{caption}
+\title{Une présentation des mémoires holographiques associatives en 10 minutes}
+\author{Romain Collot - Gonzalo Bulnes}
+\date{10 juin 2008}
+\begin{document}
+	\maketitle
+	\section[Introduction]{Introduction}
+	Pour présenter l'utilisation des mémoires holographiques en tant que mémoires associatives on s'interessera ici aux mémoires holographiques par codage angulaire.
+	
+	Le principe d'une mémoire associative est le suivant : au lieu de présenter une adresse au système pour obtenir une donnée comme on le fait habituellement, ce que l'on va présenter au système c'est la donnée, afin d'obtenir en réponse son adresse, avec éventuellement quelques petits bonus propres à l'optique\ldots
+	C'est typiquement le comportement d'une fonction de recherche.
+	
+	\section[Implémentation électronique des mémoires associatives]{Implémentation électronique des mémoires associatives}
+	En informatique électronique, les mémoires associatives sont habituellement réalisées grâce à des \emph{index}. Un index est un tableau de clés parmi lesquelles on peut effectuer une recherche, dans notre cas, ces clés seraient les données présentes en mémoire.
+	
+	Cette manière de procéder présente deux caractéristiques : tout d'abord, il faut construire et tenir à jour les index. L'indexation est un processus pénible souvent coûteux en ressources. Autre caractéristique intéressante, le résultat retourné par ces systèmes est binaire : soit on la donnée est présente dans la mémoire, soit elle ne l'est pas. On reviendra sur ce point par la suite.
+	
+	Un exemple type d'utilisation de mémoires associatives est la recherche d'images lorsque l'on veut savoir si un image est présente ou non dans une collection.
+	\section[Deux propriétes essentielles des mémoires holographiques]{Deux propriétes essentielles des mémoires holographiques}
+	Les mémoires holographiques ont deux propriétés essentielles. Premièrement, il est possible d'enregistrer de nombreux hologrammes par plaque, ce qui signifie pour nous qu'une plaque holographique n'est pas qu'un emplacement mémoire mais \emph{constitue une mémoire entière adressée en angle}.
+	
+	Par ailleurs \emph{toute} l'information contenue sur une plaque holographique est répartie sur l'\emph{ensemble} de la plaque, il n'y a donc pas de perte d'information lors du fractionnement des hologrammes. Cependant, plus grande sera la surface d'enregistrement, meilleur sera le rapport signal sur bruit de la mémoire.
+	\section[Principe des mémoires holographiques associatives]{Principe des mémoires holographiques associatives}
+		\subsection[Principe des mémoires]{Principe des mémoires}
+			\begin{figure}
+				\centering
+				%%Created by jPicEdt 1.4.1_03: LaTeX format
+				%LaTeX-picture environment using emulated lines and arcs
+				%You can rescale the whole picture (to 80% for instance) by using the command \def\JPicScale{0.8}
+				\ifx\JPicScale\undefined\def\JPicScale{1}\fi
+				\unitlength \JPicScale mm
+				\begin{picture}(56.87,34.38)(0,0)
+				\linethickness{0.3mm}
+				\put(16.25,0){\line(0,1){20}}
+				\put(16.25,20){\line(1,0){25}}
+				\put(41.25,0){\line(0,1){20}}
+				\put(16.25,0){\line(1,0){25}}
+				\linethickness{0.3mm}
+				\put(28.75,20){\line(0,1){11.88}}
+				\put(28.75,20){\vector(0,-1){0.12}}
+				\linethickness{0.3mm}
+				\put(41.25,10){\line(1,0){12.5}}
+				\put(41.25,10){\vector(-1,0){0.12}}
+				\put(28.75,34.38){\makebox(0,0)[cc]{$a_0$}}
+
+				\put(56.87,10){\makebox(0,0)[cc]{$a_1$}}
+
+				\linethickness{0.3mm}
+				\multiput(16.25,15.62)(0.12,0.12){36}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,10)(0.12,0.12){83}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,4.38)(0.12,0.12){130}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(17.5,0)(0.12,0.12){167}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(23.13,0)(0.12,0.12){151}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(28.75,0)(0.12,0.12){104}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(34.37,0)(0.12,0.12){57}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(40,0)(0.12,0.12){10}{\line(1,0){0.12}}
+				\end{picture}
+				\caption[Opération d'écriture]{Opération d'écriture dans une mémoire holographique. On enregistre la figure d'interférences crée par la rencontre du \emph{faisceau référence} $a_0$ et du \emph{faisceau objet} $a_1$.}\label{ecriture}
+			\end{figure}
+			\begin{figure}
+				\centering
+				%%Created by jPicEdt 1.4.1_03: LaTeX format
+				%LaTeX-picture environment using emulated lines and arcs
+				%You can rescale the whole picture (to 80% for instance) by using the command \def\JPicScale{0.8}
+				\ifx\JPicScale\undefined\def\JPicScale{1}\fi
+				\unitlength \JPicScale mm
+				\begin{picture}(41.25,34.38)(0,0)
+				\linethickness{0.3mm}
+				\put(16.25,0){\line(0,1){20}}
+				\put(16.25,20){\line(1,0){25}}
+				\put(41.25,0){\line(0,1){20}}
+				\put(16.25,0){\line(1,0){25}}
+				\linethickness{0.3mm}
+				\put(28.75,20){\line(0,1){11.88}}
+				\put(28.75,20){\vector(0,-1){0.12}}
+				\linethickness{0.3mm}
+				\put(3.75,10){\line(1,0){12.5}}
+				\put(3.75,10){\vector(-1,0){0.12}}
+				\put(28.75,34.38){\makebox(0,0)[cc]{$a_0$}}
+
+				\put(1.25,10){\makebox(0,0)[cc]{$a_1$}}
+
+				\linethickness{0.3mm}
+				\multiput(16.25,15.62)(0.12,0.12){36}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,10)(0.12,0.12){83}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,4.38)(0.12,0.12){130}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(17.5,0)(0.12,0.12){167}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(23.12,0)(0.12,0.12){151}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(28.75,0)(0.12,0.12){104}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(34.38,0)(0.12,0.12){57}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(40,0)(0.12,0.12){10}{\line(1,0){0.12}}
+				\end{picture}
+				\caption[Opération de lecture]{Opération de lecture dans une mémoire holographique. Le \emph{faisceau référence} $a_0$ éclaire l'hologramme qui synthétise alors le \emph{faisceau objet} $a_1$.}\label{lecture}
+			\end{figure}
+			\begin{description}
+				\item[Ecriture] L'écriture dans la mémoire s'effectue en envoyant les faisceaux \emph{référence} et \emph{objet} sur la plaque holographique, qui enregistre leur \emph{figure d'interférence}. (Voir figure \ref{ecriture})
+				\item[Lecture] Lorsque l'on éclaire l'hologramme ainsi obtenu par le \emph{faisceau de référence}, on synthétise le \emph{faisceau objet}, qui constitue la donnée. (Voir figure \ref{lecture})
+			\end{description}
+		\subsection[Principe des mémoires associatives]{Principe des mémoires associatives et retour inverse de la lumière}
+		Pour obtenir une mémoire associative à partir d'une mémoire holographique, on s'appuie sur le principe de \emph{retour inverse de la lumière}. On présente en entrée du système la donnée qui a servi a créer l'hologramme, et ce que l'on obtient est la synthèse du \emph{faisceau référence} qui lui sert d'adresse. (Voir figure \ref{inverse})
+		
+		\begin{description}
+			\item[Nota bene] L'idée de \emph{retour inverse} est exprimée en optique par la \emph{conjugaison complexe}. En effet, le complexe conjugué d'une onde est une onde de mêmes caractéristiques à l'exception du sens de son vecteur d'onde.
+			\begin{equation}\label{conjugaison}
+				{a_0}^{*} = A_0.e^{-j\vec{k}.\vec{r}} = A_0.e^{j(-\vec{k}).\vec{r}}
+			\end{equation}
+			\begin{figure}
+				\centering
+				%%Created by jPicEdt 1.4.1_03: LaTeX format
+			%LaTeX-picture environment using emulated lines and arcs
+			%You can rescale the whole picture (to 80% for instance) by using the command \def\JPicScale{0.8}
+			\ifx\JPicScale\undefined\def\JPicScale{1}\fi
+			\unitlength \JPicScale mm
+			\begin{picture}(41.88,32.5)(0,0)
+			\linethickness{0.3mm}
+			\put(16.88,-0.62){\line(0,1){20}}
+			\put(16.88,19.38){\line(1,0){25}}
+			\put(41.88,-0.62){\line(0,1){20}}
+			\put(16.88,-0.62){\line(1,0){25}}
+			\linethickness{0.3mm}
+			\put(29.38,19.38){\line(0,1){10.62}}
+			\put(29.38,30){\vector(0,1){0.12}}
+			\linethickness{0.3mm}
+			\put(4.38,9.38){\line(1,0){12.5}}
+			\put(16.88,9.38){\vector(1,0){0.12}}
+			\put(29.38,32.5){\makebox(0,0)[cc]{${a_0}^*$}}
+
+			\put(0.62,9.38){\makebox(0,0)[cc]{${a_1}^*$}}
+
+			\linethickness{0.3mm}
+			\multiput(16.88,14.99)(0.12,0.12){36}{\line(0,1){0.12}}
+			\linethickness{0.3mm}
+			\multiput(16.88,9.38)(0.12,0.12){83}{\line(1,0){0.12}}
+			\linethickness{0.3mm}
+			\multiput(16.88,3.75)(0.12,0.12){130}{\line(0,1){0.12}}
+			\linethickness{0.3mm}
+			\multiput(18.12,-0.62)(0.12,0.12){167}{\line(1,0){0.12}}
+			\linethickness{0.3mm}
+			\multiput(23.75,-0.62)(0.12,0.12){151}{\line(1,0){0.12}}
+			\linethickness{0.3mm}
+			\multiput(29.38,-0.62)(0.12,0.12){104}{\line(1,0){0.12}}
+			\linethickness{0.3mm}
+			\multiput(35,-0.62)(0.12,0.12){57}{\line(1,0){0.12}}
+			\linethickness{0.3mm}
+			\multiput(40.62,-0.62)(0.12,0.12){10}{\line(1,0){0.12}}
+			\end{picture}
+			\caption[Conjuguaison complexe]{Cette fois le \emph{faisceau objet} ${a_1}^*$ en entrée (via la \emph{conjuguaison complexe}) synthétise le \emph{faisceau référence} ${a_0}^*$.}\label{inverse}
+			\end{figure}
+			
+		\end{description}
+		\subsection[Idée d'adressage en angle]{Idée d'adressage en angle}
+			\begin{figure}
+				\centering
+				%%Created by jPicEdt 1.4.1_03: LaTeX format
+				%LaTeX-picture environment using emulated lines and arcs
+				%You can rescale the whole picture (to 80% for instance) by using the command \def\JPicScale{0.8}
+				\ifx\JPicScale\undefined\def\JPicScale{1}\fi
+				\unitlength \JPicScale mm
+				\begin{picture}(56.87,74.38)(0,0)
+				\linethickness{0.3mm}
+				\put(16.25,41.25){\line(0,1){20}}
+				\put(16.25,61.25){\line(1,0){25}}
+				\put(41.25,41.25){\line(0,1){20}}
+				\put(16.25,41.25){\line(1,0){25}}
+				\linethickness{0.3mm}
+				\multiput(28.75,61.25)(0.12,0.12){89}{\line(1,0){0.12}}
+				\put(28.75,61.25){\vector(-1,-1){0.12}}
+				\linethickness{0.3mm}
+				\put(41.25,51.25){\line(1,0){12.5}}
+				\put(41.25,51.25){\vector(-1,0){0.12}}
+				\put(41.88,74.38){\makebox(0,0)[cc]{$a'_0$}}
+
+				\put(56.87,51.25){\makebox(0,0)[cc]{$a'_1$}}
+
+				\linethickness{0.3mm}
+				\multiput(16.25,56.87)(0.12,0.12){36}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,51.25)(0.12,0.12){83}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,45.63)(0.12,0.12){130}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(17.5,41.25)(0.12,0.12){167}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(23.13,41.25)(0.12,0.12){151}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(28.75,41.25)(0.12,0.12){104}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(34.37,41.25)(0.12,0.12){57}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(40,41.25)(0.12,0.12){10}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\put(16.25,0){\line(0,1){20}}
+				\put(16.25,20){\line(1,0){25}}
+				\put(41.25,0){\line(0,1){20}}
+				\put(16.25,0){\line(1,0){25}}
+				\linethickness{0.3mm}
+				\multiput(28.75,20)(0.13,0.12){83}{\line(1,0){0.13}}
+				\put(39.38,30){\vector(1,1){0.12}}
+				\linethickness{0.3mm}
+				\put(3.75,10){\line(1,0){12.5}}
+				\put(16.25,10){\vector(1,0){0.12}}
+				\put(42.5,33.12){\makebox(0,0)[cc]{${a'_0}^*$}}
+
+				\put(0,10){\makebox(0,0)[cc]{${a'_1}^*$}}
+
+				\linethickness{0.3mm}
+				\multiput(16.25,15.62)(0.12,0.12){36}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,10)(0.12,0.12){83}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.25,4.38)(0.12,0.12){130}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(17.5,0)(0.12,0.12){167}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(23.13,0)(0.12,0.12){151}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(28.75,0)(0.12,0.12){104}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(34.37,0)(0.12,0.12){57}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(40,0)(0.12,0.12){10}{\line(1,0){0.12}}
+				\end{picture}
+				\caption[Adressage en angle]{Idée de l'adressage en angle. On enregistre l'hologramme avec \emph{faisceau référence} $a'_0$ d'incidence quelconque et un \emph{faisceau objet} $a'_1$. La lecture effectuée à partir de ${a'_0}^*$ synthétise alors ${a'_1}^*$.}\label{adresse}
+			\end{figure}
+		Si on enregistre l'hologramme avec un faisceau de référence incliné d'un certain angle par rapport à la plaque, lorsque par la suite on présente l'objet en entrée du système, on obtient en sortie le faisceau de référence avec le même angle d'inclinaison. (Voir figure \ref{adresse})
+		
+		En faisant varier l'incidence du faisceau référence lors de l'enregistrement des hologrammes successifs, on obtient une mémoire adressée en angle. On parlera désormais de faisceaux adresse pour les faisceaux de référence.
+		\subsection[Combinaison linéaire de données]{Combinaison linéaire de données}
+			\begin{figure}
+				\centering
+				%%Created by jPicEdt 1.4.1_03: LaTeX format
+				%LaTeX-picture environment using emulated lines and arcs
+				%You can rescale the whole picture (to 80% for instance) by using the command \def\JPicScale{0.8}
+				\ifx\JPicScale\undefined\def\JPicScale{1}\fi
+				\unitlength \JPicScale mm
+				\begin{picture}(42.5,34.38)(0,0)
+				\linethickness{0.3mm}
+				\put(16.87,0){\line(0,1){20}}
+				\put(16.87,20){\line(1,0){25}}
+				\put(41.87,0){\line(0,1){20}}
+				\put(16.87,0){\line(1,0){25}}
+				\linethickness{0.3mm}
+				\multiput(30,20)(0.12,0.12){83}{\line(1,0){0.12}}
+				\put(40,30){\vector(1,1){0.12}}
+				\linethickness{0.3mm}
+				\put(3.75,9.38){\line(1,0){13.12}}
+				\put(16.87,9.38){\vector(1,0){0.12}}
+				\put(42.5,33.12){\makebox(0,0)[cc]{${a'_0}^*$}}
+
+				\put(0.62,11.88){\makebox(0,0)[cc]{${a_1}^*$}}
+
+				\linethickness{0.3mm}
+				\multiput(16.87,15.62)(0.12,0.12){36}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.87,10)(0.12,0.12){83}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(16.87,4.38)(0.12,0.12){130}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(18.12,0)(0.12,0.12){167}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(23.75,0)(0.12,0.12){151}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(29.37,0)(0.12,0.12){104}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(34.99,0)(0.12,0.12){57}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(40.62,0)(0.12,0.12){10}{\line(1,0){0.12}}
+				\put(0.62,6.88){\makebox(0,0)[cc]{${a'_1}^*$}}
+
+				\linethickness{0.3mm}
+				\put(30,20){\line(0,1){11.25}}
+				\put(30,31.25){\vector(0,1){0.12}}
+				\put(30,34.38){\makebox(0,0)[cc]{${a_0}^*$}}
+
+				\end{picture}
+				\caption[Combinaisons linéaires]{Combinaisons linéaires. Toute combinaison linéaire de \emph{faisceaux objet} donne en sortie la combinaison linéaire des \emph{faisceaux référence} correspondants.}\label{combinaison-lineaire}
+			\end{figure}
+		Si l'on présente en entrée du sytème une \emph{combinaison linéaire} de deux données préalablement enregistrées, on synthétise en sortie une combinaison linéaire des deux faisceaux adresse correspondants. On retrouve en sortie les coefficients de la combinaison linéaire d'entrée sur leurs adresses respectives. (Voir figure \ref{combinaison-lineaire})
+		\subsection[Résultats de recherche exhaustifs]{Résultats de recherche exhaustifs}
+			\begin{figure}
+				\centering
+				%%Created by jPicEdt 1.4.1_03: LaTeX format
+				%LaTeX-picture environment using emulated lines and arcs
+				%You can rescale the whole picture (to 80% for instance) by using the command \def\JPicScale{0.8}
+				\ifx\JPicScale\undefined\def\JPicScale{1}\fi
+				\unitlength \JPicScale mm
+				\begin{picture}(42.5,41.25)(0,0)
+				\linethickness{0.3mm}
+				\put(17.5,-0.62){\line(0,1){20}}
+				\put(17.5,19.38){\line(1,0){25}}
+				\put(42.5,-0.62){\line(0,1){20}}
+				\put(17.5,-0.62){\line(1,0){25}}
+				\linethickness{0.3mm}
+				\multiput(30.62,19.38)(0.12,0.12){57}{\line(1,0){0.12}}
+				\put(37.5,26.25){\vector(1,1){0.12}}
+				\linethickness{0.3mm}
+				\put(4.37,8.75){\line(1,0){13.12}}
+				\put(17.5,8.75){\vector(1,0){0.12}}
+				\put(40,28.75){\makebox(0,0)[cc]{${a'_0}^*$}}
+
+				\put(0.62,8.75){\makebox(0,0)[cc]{${a_1}^*$}}
+
+				\linethickness{0.3mm}
+				\multiput(17.5,15)(0.12,0.12){36}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(17.5,9.38)(0.12,0.12){83}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(17.5,3.75)(0.12,0.12){130}{\line(0,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(18.75,-0.62)(0.12,0.12){167}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(24.38,-0.62)(0.12,0.12){151}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(30,-0.62)(0.12,0.12){104}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(35.62,-0.62)(0.12,0.12){57}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\multiput(41.25,-0.62)(0.12,0.12){10}{\line(1,0){0.12}}
+				\linethickness{0.3mm}
+				\put(30.62,19.38){\line(0,1){18.75}}
+				\put(30.62,38.12){\vector(0,1){0.12}}
+				\put(30.62,41.25){\makebox(0,0)[cc]{${a_0}^*$}}
+
+				\linethickness{0.3mm}
+				\multiput(30.62,19.38)(0.12,0.22){26}{\line(0,1){0.22}}
+				\put(33.75,25){\vector(1,2){0.12}}
+				\linethickness{0.3mm}
+				\multiput(23.75,28.75)(0.12,-0.16){57}{\line(0,-1){0.16}}
+				\put(23.75,28.75){\vector(-3,4){0.12}}
+				\linethickness{0.3mm}
+				\multiput(28.12,26.88)(0.12,-0.36){21}{\line(0,-1){0.36}}
+				\put(28.12,26.88){\vector(-1,3){0.12}}
+				\linethickness{0.3mm}
+				\multiput(30.62,19.38)(0.3,0.12){21}{\line(1,0){0.3}}
+				\put(36.88,21.88){\vector(3,1){0.12}}
+				\linethickness{0.3mm}
+				\multiput(26.25,20.62)(0.44,-0.12){10}{\line(1,0){0.44}}
+				\put(26.25,20.62){\vector(-4,1){0.12}}
+				\end{picture}
+				\caption[Pondération]{Pondération des adresses de retour. Tout \emph{faisceau objet} ${a_0}^*$ est décomposé dans la base des données ayant permis de créer l'hologramme.}\label{ponderation}
+			\end{figure}
+		Par conséquent lorsque l'on présente à l'entrée du système un faisceau objet quelconque, la sortie est constituée de \emph{tous} les faisceaux adresse du système, \emph{pondérés} en fonction de la ressemblance entre la donnée d'entrée et les données qu'ils adressent. (Voir figure \ref{ponderation})  
+	\section[Points forts de l'implémentation optique]{Points forts de l'implémentation optique}
+	Comme les mémoires holographiques sont intrinsèquement associatives, et qu'aucune indexation n'est nécessaire, les mémoires associatives optiques sont à la fois rapides (puisque l'on ne parcourt aucun index) et régulières (puisque les adresses sont retournées dans le même temps quelquesoit la quantité de données contenues par la mémoire).
+	
+	De plus les résultats qu'elles retournent peuvent être considérés comme exhaustifs dans la mesure où ils contiennent l'information issue de la comparaison de la donnée avec toutes celles contenues dans la mémoire.
+	\section[Conclusion]{Conclusion}
+	Les intérêts de l'implémentation optique des mémoires associatives en font une solution technologique nettement supérieure aux développements électroniques actuels, une fois les difficultés de réalisation pratique mises à part.
+	
+	Leur étude est intéressante pour la mise au point de modèles physiques explicatifs dans de nombreux domaines, par exemple leur mode de fonctionnement pourrait permettre de bâtir un modèle de fonctionnement du cerveau, et d'expliquer des phénomènes tels que les situations de \emph{déjà-vu}.	
+\end{document}
+
